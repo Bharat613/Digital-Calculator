@@ -1,6 +1,6 @@
 body {
-    margin: 50px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     justify-items: center;
     background: url('https://cdn.pixabay.com/photo/2023/10/27/09/24/mountains-8344601_640.jpg');
     background-size: cover;
@@ -14,14 +14,14 @@ body {
     width: 332px;
     padding: 10px;
     border: 1px solid;
-    margin-top: 90px;
+    margin-top: 40px; /* Reduced margin-top for better fit */
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
     box-shadow: 20px 19px 10px rgba(0,0,0,0.4);
 }
 
 #inputBox {
-    width: 289px;
+    width: 100%;
     text-align: right;
     margin: 3px;
     font-size: 40px;
@@ -42,7 +42,6 @@ button {
     color: white;
     font-weight: bold;
     border: none;
-    flex: 1 0 60px; /* Make buttons flexible and allow wrapping */
 }
 
 button:hover {
@@ -72,12 +71,12 @@ button:hover {
     #calculator {
         width: 90%;
         max-width: 350px;
-        margin-top: 60px;
+        margin-top: 30px; /* Reduced margin-top */
         padding: 15px;
     }
 
     #inputBox {
-        width: 85%;
+        width: 100%;
         font-size: 30px;
         padding: 12px;
     }
@@ -105,7 +104,7 @@ button:hover {
     #calculator {
         width: 100%;
         max-width: 300px;
-        margin-top: 40px;
+        margin-top: 20px; /* Reduced margin-top */
         padding: 10px;
     }
 
