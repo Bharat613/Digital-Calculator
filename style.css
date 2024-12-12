@@ -1,4 +1,4 @@
-body{
+body {
     margin: 50px;
     padding: 0px;
     justify-items: center;
@@ -10,7 +10,7 @@ body{
     min-height: 100vh;
 }
 
-#calculator{
+#calculator {
     width: 332px;
     padding: 10px;
     border: 1px solid;
@@ -20,7 +20,7 @@ body{
     box-shadow: 20px 19px 10px rgba(0,0,0,0.4);
 }
 
-#inputBox{
+#inputBox {
     width: 289px;
     text-align: right;
     margin: 3px;
@@ -33,7 +33,7 @@ body{
     box-shadow: inset 0px 0px 8px rgba(0,0,0,0.4);
 }
 
-button{
+button {
     margin: 10px;
     width: 60px;
     height: 60px;
@@ -42,19 +42,20 @@ button{
     color: white;
     font-weight: bold;
     border: none;
+    flex: 1 0 60px; /* Make buttons flexible and allow wrapping */
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     background-color: #f97705;
     color: white;
 }
 
-.operator, .ac{
+.operator, .ac {
     color: #f97705;
 }
 
-.equal, .del{
+.equal, .del {
     background-color: #f97705;
 }
 
@@ -69,23 +70,29 @@ button:hover{
     }
 
     #calculator {
-        width: 100%; /* Full width for small screens */
-        max-width: 350px; /* Ensuring it doesn't get too wide */
-        margin-top: 60px; /* Reduce margin for smaller screens */
+        width: 100%;
+        max-width: 350px;
+        margin-top: 60px;
         padding: 15px;
     }
 
     #inputBox {
-        width: 100%; /* Full width */
-        font-size: 30px; /* Reduce font size for input */
+        width: 100%;
+        font-size: 30px;
         padding: 12px;
     }
 
     button {
-        width: 50px; /* Smaller button size */
-        height: 50px; 
-        margin: 7px; /* Reduce space between buttons */
-        font-size: 18px; /* Reduce font size for button text */
+        width: 50px;
+        height: 50px;
+        margin: 7px;
+        font-size: 18px;
+    }
+
+    .calculator-keys {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
 
@@ -96,22 +103,28 @@ button:hover{
     }
 
     #calculator {
-        width: 100%; 
-        max-width: 300px; /* Smaller screen width */
-        margin-top: 40px; 
+        width: 100%;
+        max-width: 300px;
+        margin-top: 40px;
         padding: 10px;
     }
 
     #inputBox {
-        width: 100%; 
-        font-size: 25px; 
+        width: 100%;
+        font-size: 25px;
         padding: 10px;
     }
 
     button {
-        width: 45px; 
-        height: 45px; 
-        margin: 5px; 
-        font-size: 16px; 
+        width: 45px;
+        height: 45px;
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .calculator-keys {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 buttons per row */
+        gap: 10px;
     }
 }
