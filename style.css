@@ -4,6 +4,10 @@ body{
     justify-items: center;
     background: url('https://cdn.pixabay.com/photo/2023/10/27/09/24/mountains-8344601_640.jpg');
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 #calculator{
@@ -54,33 +58,38 @@ button:hover{
     background-color: #f97705;
 }
 
+/* ===========================
+    Responsive Styles for Mobile
+   =========================== */
 
+/* Tablet and smaller screens */
 @media (max-width: 768px) {
     body {
         margin: 20px;
     }
 
     #calculator {
-        width: 100%;
-        max-width: 350px; 
-        margin-top: 60px; 
+        width: 100%; /* Full width for small screens */
+        max-width: 350px; /* Ensuring it doesn't get too wide */
+        margin-top: 60px; /* Reduce margin for smaller screens */
         padding: 15px;
     }
 
     #inputBox {
-        width: 100%;
-        font-size: 30px; 
+        width: 100%; /* Full width */
+        font-size: 30px; /* Reduce font size for input */
         padding: 12px;
     }
 
     button {
-        width: 50px;
+        width: 50px; /* Smaller button size */
         height: 50px; 
-        margin: 7px; 
-        font-size: 18px;
+        margin: 7px; /* Reduce space between buttons */
+        font-size: 18px; /* Reduce font size for button text */
     }
 }
 
+/* Mobile phones */
 @media (max-width: 480px) {
     body {
         margin: 10px;
@@ -88,7 +97,7 @@ button:hover{
 
     #calculator {
         width: 100%; 
-        max-width: 300px;
+        max-width: 300px; /* Smaller screen width */
         margin-top: 40px; 
         padding: 10px;
     }
