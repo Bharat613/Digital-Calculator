@@ -1,0 +1,53 @@
+body{
+    margin :50px;
+    padding : 0px;
+    justify-items: center;
+    background : url('https://cdn.pixabay.com/photo/2023/10/27/09/24/mountains-8344601_640.jpg');
+    background-size : cover;
+}
+#calculator{
+    width : 332px;
+    padding : 10px;
+    border : 1px solid;
+    margin-top : 120px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow: 20px 19px 10px rgba(0,0,0,0.4);
+    
+    
+}
+#inputBox{
+    
+    width :289px;
+    text-align: right;
+    margin : 3px;
+    font-size : 40px;
+    padding : 17px;
+    border-radius : 4px;
+    border : none;
+    color : white;
+    background-color: rgb(225,225,225,0.3);
+    box-shadow: inset 0px 0px 8px rgba(0,0,0,0.4);
+}
+button{
+    margin:10px;
+    width : 60px;
+    height : 60px;
+    border-radius : 15px;
+    background-color: rgba(0,0,0,0.7);
+    color : white;
+    font-weight: bold;
+    border : none;
+
+}
+button:hover{
+    cursor : pointer;
+    background-color: #f97705;
+    color : white;
+}
+.operator,.ac{
+    color : #f97705;
+}
+.equal,.del{
+    background-color: #f97705;
+}
