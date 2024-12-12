@@ -59,64 +59,65 @@ button:hover{
 @media (max-width: 768px) {
     body {
         margin: 20px;
+        justify-items: center;
+    background : url('https://cdn.pixabay.com/photo/2023/10/27/09/24/mountains-8344601_640.jpg');
+    background-size : cover;
+    height : 620px;
     }
 
     #calculator {
         width: 90%;
+        height : 480px;
         max-width: 350px;
-        margin-top: 30px; /* Reduced margin-top */
+        margin-top: 120px; 
         padding: 15px;
     }
 
     #inputBox {
-        width: 100%;
+        width: 87%;
         font-size: 30px;
-        padding: 12px;
+        padding: 20px;
     }
 
     button {
-        width: 50px;
-        height: 50px;
-        margin: 7px;
-        font-size: 18px;
-    }
-
-    .calculator-keys {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        width: 60px;
+        height: 60px;
+        margin: 12px;
+        font-size: 20px;
     }
 }
 
 /* Mobile phones */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     body {
-        margin: 10px;
+        margin: 20px;
+        justify-items: center;
+    background : url('https://cdn.pixabay.com/photo/2023/10/27/09/24/mountains-8344601_640.jpg');
+    background-size : cover;
+    height : 680px;
     }
 
     #calculator {
-        width: 100%;
+        width: 90%;
         max-width: 300px;
-        margin-top: 20px; /* Reduced margin-top */
+        margin-top: 80px; /* Reduced margin-top */
         padding: 10px;
     }
 
     #inputBox {
-        width: 100%;
-        font-size: 25px;
-        padding: 10px;
+        width: 84%;
+        font-size: 37px;
+        padding: 22px;
+        margin-bottom : 20px;
+        height : 55px;
+
     }
 
     button {
-        width: 45px;
-        height: 45px;
-        margin: 5px;
+        
+        width: 60px;
+        height: 60px;
+        margin: 6px;
         font-size: 16px;
-    }
-
-    .calculator-keys {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr); /* 4 buttons per row */
-        gap: 10px;
     }
 }
