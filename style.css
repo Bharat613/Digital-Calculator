@@ -88,7 +88,7 @@ button:hover{
     }
 }
 /* Mobile phones */
-@media (max-width: 486px) {
+@media (max-width: 500px) {
     body {
         margin: 20px;
         justify-items: center;
