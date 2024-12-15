@@ -88,7 +88,7 @@ button:hover{
     }
 }
 
-/* Mobile phones */
+/* Mobile phones 
 @media (max-width: 500px) {
     body {
         margin: 20px;
@@ -101,7 +101,7 @@ button:hover{
     #calculator {
         width: 90%;
         max-width: 300px;
-        margin-top: 80px; /* Reduced margin-top */
+        margin-top: 80px; /* Reduced margin-top 
         padding: 10px;
     }
 
@@ -122,3 +122,4 @@ button:hover{
         font-size: 20px;
     }
 }
+*/
