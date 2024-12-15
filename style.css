@@ -75,15 +75,15 @@ button:hover{
     }
 
     #inputBox {
-        width: 84%;
+        width: 87%;
         font-size: 30px;
         padding: 20px;
     }
 
     button {
-        width: 50px;
-        height: 50px;
-        margin: 10px;
+        width: 60px;
+        height: 60px;
+        margin: 12px;
         font-size: 20px;
     }
 }
