@@ -56,7 +56,7 @@ button:hover{
     Responsive Styles for Mobile
    =========================== */
 
-/* Tablet and smaller screens */
+/* Tablet and smaller screens 
 @media (max-width: 768px) {
     body {
         margin: 20px;
@@ -87,9 +87,9 @@ button:hover{
         font-size: 20px;
     }
 }
-
-/* Mobile phones 
-@media (max-width: 500px) {
+*/
+/* Mobile phones */
+@media (max-width: 768px) {
     body {
         margin: 20px;
         justify-items: center;
@@ -101,7 +101,7 @@ button:hover{
     #calculator {
         width: 90%;
         max-width: 300px;
-        margin-top: 80px; /* Reduced margin-top 
+        margin-top: 80px; /* Reduced margin-top */
         padding: 10px;
     }
 
@@ -122,4 +122,3 @@ button:hover{
         font-size: 20px;
     }
 }
-*/
