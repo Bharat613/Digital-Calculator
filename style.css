@@ -75,7 +75,7 @@ button:hover{
     }
 
     #inputBox {
-        width: 87%;
+        width: 84%;
         font-size: 30px;
         padding: 20px;
     }
@@ -83,7 +83,7 @@ button:hover{
     button {
         width: 50px;
         height: 50px;
-        margin: 12px;
+        margin: 10px;
         font-size: 20px;
     }
 }
